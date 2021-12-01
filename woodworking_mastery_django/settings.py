@@ -1,4 +1,5 @@
 import os
+import dj_database_url
 """
 Django settings for woodworking_mastery_django project.
 
@@ -42,6 +43,7 @@ INSTALLED_APPS = [
     'allauth.account',
     'allauth.socialaccount',
     'home',
+    'products',
 ]
 
 MIDDLEWARE = [
